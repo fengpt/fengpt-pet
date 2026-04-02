@@ -15,6 +15,7 @@ public class TestController {
     @GetMapping("/test")
     public String test(){
         log.info("test param{}",dataTest);
+        System.out.println();
         return dataTest;
     }
 }
