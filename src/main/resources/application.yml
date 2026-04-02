@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fengpt-pet/v1
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+# 日志配置
+logging:
+  config: classpath:logback-spring.xml
+
+fengpt: local
+LOG_FILE: /Users/work/test1/log
+LOG_BAK_FILE: /Users/work/test1/log
+SERVICE_NAME: fengpt-pet
+APP_VERSION: v1
+
+
+
+
+spring:
+  application:
+    name: fengpt-pet
