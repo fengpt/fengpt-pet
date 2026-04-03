@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false">
-    <property name="LOG_FILE" value="${LOG_FILE}/${SERVICE_NAME}/${APP_VERSION}"/>
-    <property name="LOG_BAK_FILE"  value="${LOG_BAK_FILE}/${SERVICE_NAME}/${APP_VERSION}"/>
+    <property name="LOG_FILE" value="${APP_LOG_FILE}/${SERVICE_NAME}/${APP_VERSION}"/>
+    <property name="LOG_BAK_FILE"  value="${APP_LOG_BAK_FILE}/${SERVICE_NAME}/${APP_VERSION}"/>
     <!-- 控制台输出 -->
     <appender name="stdoutAppender" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
