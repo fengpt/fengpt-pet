@@ -24,7 +24,7 @@
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${LOG_BAK_FILE}/${SERVICE_NAME}-%d{yyyy-MM-dd-HH}-%i.log</fileNamePattern>
-            <maxFileSize>300MB</maxFileSize>
+            <maxFileSize>1KB</maxFileSize>
             <maxHistory>240</maxHistory>
             <CleanHistoryOnStart>true</CleanHistoryOnStart>
             <totalSizeCap>60GB</totalSizeCap>
